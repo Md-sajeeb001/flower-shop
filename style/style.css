@@ -11,3 +11,41 @@
 html{
     scroll-behavior: smooth;
 }
+.header-container{
+    max-width: 1366px;
+    height: 600px;
+    background: rgba(229, 84, 115, 0.1);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5rem 10rem;
+}
+.header-content{
+    width:390px;
+}
+.header-content h1{
+    font-size: 2.5rem;
+    color: rgb(39, 39, 39);
+    letter-spacing: .1rem;
+    font-weight: bolder;
+}
+.header-content p{
+    font-size: .9rem;
+    color: rgba(39, 39, 39, 0.6);
+    margin: 1.3rem 0;
+}
+.header-content button{
+    padding: .7rem 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgb(229, 84, 115);
+    border: none;
+    border-radius: .5rem;
+}
+.imges{
+    width: 430px;
+    height: 519px;
+}
