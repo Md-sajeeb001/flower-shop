@@ -242,3 +242,31 @@ html{
     margin-bottom: 1rem;
     font-size: .9rem;
 }
+/* =============footer section============== */
+.footer-section{
+    max-width: 1366px;
+    height: 330px;
+    background-color: black;
+}
+.footer-content{
+    width: 550px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 6rem;
+    text-align: center;
+    color: #fff;
+}
+.footer-content span{
+    color: rgb(229, 84, 115);
+}
+.long-pera{
+    margin: 1rem 0;
+}
+.long-pera{
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+.footer-content p{
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.9);
+}
