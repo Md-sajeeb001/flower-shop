@@ -126,3 +126,49 @@ html{
     color:  rgba(39, 39, 39, 0.8);
     margin-top: .8rem;
 }
+
+/* =================SECOND BANNER================== */
+.second-banner-section{
+    max-width: 1366px;
+    height: 500px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 5rem auto;
+}
+.second-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12rem;
+}
+.second-banner-content{
+    width: 500px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6rem;
+}
+.second-banner-content span{
+    color: rgb(229, 84, 115);
+}
+.second-banner-content p{
+    color:  rgba(39, 39, 39, 0.6);
+    font-size: .9rem;
+    margin: 1.2rem 0;
+    max-width: 550px;
+    line-height: 1.6rem;
+}
+.second-banner-content button{
+    padding: .7rem 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgb(229, 84, 115);
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
+.second-banner img{
+    width: 300px;
+    height: 380px;
+    margin-top: 3rem;
+}
